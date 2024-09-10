@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "itreka",
+    "slug": "itreka",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme" : "itreka",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.itreka"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugin": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d4b1edbf-e3ec-43b7-b97b-8d6ec9c22ffd"
+      }
+    }
+  }
+}
